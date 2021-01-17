@@ -1,0 +1,32 @@
+.header {
+   font-size: 50px;
+   color:steelblue;
+   font-family: sans-serif;
+   font-weight: bold;
+}
+.topnav {
+    background-color: rgb(207, 183, 104);
+    overflow: hidden;
+    text-align: center;
+    overflow: auto;
+    white-space: nowrap;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    border-width: 50%;
+}
+.topnav a {
+    color:linen;
+    font-size: 40px;
+    font-family: monospace;
+    padding: 20px 20px;
+    
+}
+.topnav a:hover {
+    background-color: steelblue;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+}
