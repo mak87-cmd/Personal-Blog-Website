@@ -1,9 +1,9 @@
-@import "./header.css";
-@import "./layout.css";
-@import "./footer.css";
-@import "./content.css";
-@import "./images.css";
-@import "./media.css";
+@import "./components/header.css";
+@import "./components/layout.css";
+@import "./components/footer.css";
+@import "./components/content.css";
+@import "./components/images.css";
+@import "./components/media.css";
 
 body {
     background-image: url(https://cdn.pixabay.com/photo/2014/12/02/02/44/bokeh-553439_1280.jpg);
