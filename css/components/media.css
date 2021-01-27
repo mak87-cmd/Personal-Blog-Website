@@ -9,6 +9,7 @@
           "middle"
           "right"
     }
+
     .post-grid {
         display: grid;
         grid-gap: 10px;
@@ -18,9 +19,11 @@
           "content"
           "footer"
     }
+
     .resize {
         width: 100%
     }
+    
     .post-content {
         margin-left: auto;
     }

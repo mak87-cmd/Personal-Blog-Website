@@ -11,6 +11,7 @@ body {
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
+
 .card {
     border: 2px solid gray;
     padding: 15px;
@@ -19,6 +20,7 @@ body {
     font-size: 18px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 .post-button {
     background-color: royalblue;
     text-align: center;

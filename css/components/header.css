@@ -2,9 +2,11 @@
     font-size: 40px;
     font-family: cursive;
     font-style: italic;
+    font-weight: bolder;
     color:rgb(5, 5, 5);
     padding: 15px;
 }
+
 .header {
     display: flex;
     flex-wrap: wrap;
@@ -13,6 +15,7 @@
     justify-content: space-evenly;
     color: rgb(53, 48, 48);
 }
+
 .topnav {
     overflow: hidden;
     text-align: center;
@@ -23,12 +26,14 @@
     justify-content: space-evenly;
     border-width: 50%;
 }
+
 .topnav a {
     color:rgb(54, 53, 53);
     font-size: 28px;
     font-family: monospace;
     padding: 10px 10px;
 }
+
 .topnav a:hover {
     opacity: 0.5;
 }
