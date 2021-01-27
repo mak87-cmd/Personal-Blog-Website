@@ -1,0 +1,27 @@
+@media screen and (max-width: 550px) {
+    .grid {
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+          "intro"
+          "left"
+          "middle"
+          "right"
+    }
+    .post-grid {
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+          "sidebar"
+          "content"
+          "footer"
+    }
+    .resize {
+        width: 100%
+    }
+    .post-content {
+        margin-left: auto;
+    }
+}

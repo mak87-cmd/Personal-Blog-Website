@@ -1,0 +1,47 @@
+@import "./header.css";
+@import "./layout.css";
+@import "./footer.css";
+@import "./content.css";
+@import "./images.css";
+@import "./media.css";
+
+body {
+    background-image: url(https://cdn.pixabay.com/photo/2014/12/02/02/44/bokeh-553439_1280.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.sidebar {
+    grid-area: sidebar;
+}
+.author {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+.author-info {
+    font-size: 20px;
+    color: rgb(86, 84, 87);
+    font-family: cursive;
+}
+.fa {
+    padding: 20px;
+    font-size: 40px;
+    width: 50px;
+}
+.fa a:hover {
+    opacity: 0.5;
+}
+.fa-linkedin {
+    color: rgb(50, 124, 194);
+}
+.fa-facebook {
+    color:rgb(4, 71, 197);
+}
+.fa-twitter {
+    color:rgb(124, 185, 241);
+}
+.caption {
+    text-align: center;
+    font-size: 14px;
+}

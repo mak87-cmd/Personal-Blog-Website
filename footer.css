@@ -1,0 +1,10 @@
+.footer {
+    grid-area: footer;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    color: black;
+    font-family: sans-serif;
+    font-size: 15px;
+}

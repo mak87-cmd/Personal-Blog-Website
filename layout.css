@@ -1,0 +1,31 @@
+.grid {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-areas:
+      "intro intro intro intro intro intro"
+      "left left middle middle right right"
+}
+.grid-intro {
+    grid-area: intro;
+}
+.grid-content-left {
+    grid-area: left;
+}
+.grid-content-middle {
+    grid-area: middle;
+}
+.grid-content-right {
+    grid-area: right;
+}
+.post-grid {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-areas:
+      "sidebar content content content content content"
+      "footer footer footer footer footer footer"
+}
+.post-grid-content {
+    grid-area: content;
+}

@@ -1,0 +1,9 @@
+.content {
+    font-family: monospace;
+    font-style: italic;
+    font-size: 20px;
+    color:rgb(5, 5, 5);
+}
+.post-content {
+    margin-left: 100px;
+}
